@@ -1,2 +1,2 @@
 !#/bin/bash
-pythin -c "$PYCODE"
+python -c "$PYCODE"

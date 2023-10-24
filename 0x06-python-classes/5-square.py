@@ -46,5 +46,7 @@ class Square:
         Args:
             size(int): The side's size
         """
+        if self.__size == 0:
+            print()
         for i in range(0, self.__size):
             print('#' * self.__size)

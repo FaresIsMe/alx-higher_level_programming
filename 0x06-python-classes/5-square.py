@@ -41,9 +41,16 @@ class Square:
     def area(self):
         """Square area
         Args:
-            a(int): Are of the square.
-        Returns:
-            a as the area.
+            a(int): Are of the square
         """
         a = self.__size * self.__size
         return a
+
+    def my_print(self):
+        """Draws a square based on size
+        
+        Args:
+            size(int): The side's size
+        """
+        for i in range(0, self.__size):
+            print('#' * self.__size)

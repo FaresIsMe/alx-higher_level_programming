@@ -48,7 +48,7 @@ class Square:
 
     def my_print(self):
         """Draws a square based on size
-        
+
         Args:
             size(int): The side's size
         """

@@ -15,11 +15,19 @@ class Square:
 
     @property
     def size(self):
-        """Gets the size of the square"""
+        """Gets the size of the square
+        
+        Returns: private size.
+        """
         return self.__size
 
     @size.setter
     def size(self, value):
+        """Sets value into size, must be int.
+
+        Args:
+            value (int): size of the square.
+        """
 
         if not isinstance(value, int):
             raise TypeError("size must be integer")

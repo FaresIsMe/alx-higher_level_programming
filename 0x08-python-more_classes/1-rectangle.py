@@ -38,7 +38,7 @@ class Rectangle:
         """Set the height"""
         return self.__height
 
-    @width.setter
+    @height.setter
     def height(self, value):
         if type(value) is int:
             if value >= 0:

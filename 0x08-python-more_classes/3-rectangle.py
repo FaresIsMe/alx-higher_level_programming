@@ -62,7 +62,7 @@ class Rectangle:
     def __str__(self):
         """sets the shape of the rectangle to be printed"""
         shape = ""
-        
+
         if self.__height > 0 and self.__width > 0:
             for i in range(self.__height):
                 for j in range(self.__width):

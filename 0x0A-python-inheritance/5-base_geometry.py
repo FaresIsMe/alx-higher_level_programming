@@ -5,6 +5,7 @@ Define class BaseGeometry
 =========================
 """
 
+
 class BaseGeometry(object):
     """Class representaion"""
     pass

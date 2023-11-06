@@ -33,10 +33,9 @@ Define child class Rectangle
 
 
 class Rectangle(BaseGeometry):
-    """Class Representaion"""
-
+    """Rectangle class"""
     def __init__(self, width, height):
-        """Intitilize rectangle method"""
+        """Initilize rectangle method"""
         self.integer_validator("width", width)
         self.__width = width
         self.integer_validator("height", height)

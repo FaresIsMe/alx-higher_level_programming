@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import json
 """
 I wallahy don't know what is this
 """
+import json
 
 
 def to_json_string(my_obj):

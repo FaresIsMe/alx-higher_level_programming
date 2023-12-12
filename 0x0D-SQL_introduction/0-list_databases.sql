@@ -1,2 +1,2 @@
---HI There I'm using WhatsApp
+-- This script list all databases in MySQL server
 SHOW DATABASES;

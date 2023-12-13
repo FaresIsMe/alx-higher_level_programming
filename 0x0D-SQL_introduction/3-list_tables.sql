@@ -1,2 +1,2 @@
 -- HI there guys
-SHOW  TABLES;
+SHOW TABLES;
